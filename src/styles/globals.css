@@ -1,0 +1,216 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Normalize */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre,
+a, code, em, img, small, strong, sub, sup,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    /* border: none; */
+}
+
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-thumb {
+	width: 5px;
+	background: var(--border-col);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #3b3b3b;
+}
+::-webkit-scrollbar-track{
+	border:none;
+	background-color: var(--background-end);
+}
+::-webkit-scrollbar-track-piece {
+	width: 4px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr { width:100%;}
+
+
+@font-face {
+	font-family: "Lato";
+	src: url('../assets/fonts/Lato-Regular.ttf');
+}
+@font-face {
+	font-family: "Quicksand-Regular";
+	src: url('../assets/fonts/static/Quicksand-Regular.ttf');
+}
+
+* {
+	letter-spacing: 0.05rem;
+	outline: 0;
+	box-sizing: border-box;
+ }
+
+
+:root {
+	--background: #F4F7F9;
+	--background-start: #FFFFFF; 
+	--background-end: #F4F5FF;
+	--border-col: #D5D5E6;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	:root {
+	 
+	}
+} */
+
+
+.auth-bg {
+	background: url(../assets//imgs/wall.png) fixed no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+
+.bannar1 {
+	background: url(../assets//imgs/bannar1.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.bannar2 {
+	background: url(../assets//imgs/bannar2.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.bannar3 {
+	background: url(../assets//imgs/bannar3.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.bannar5 {
+	background: url(../assets//imgs/bannar5.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.bannar6 {
+	background: url(../assets//imgs/bannar6.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.sidebannar {
+	background: url(../assets//imgs/sidebannar.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+.sidebannar1 {
+	background: url(../assets//imgs/sidebannar1.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+
+.home-bg3 {
+	background: url(../assets//imgs/homebg3.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+	background-position: center;
+}
+
+.home-bg4 {
+	background: url(../assets//imgs/homebg4.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+
+.homeStart {
+	background: url(../assets//imgs/homeStart.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+
+.movie1 {
+	background: url(../assets//imgs/movie1.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+.movie2 {
+	background: url(../assets//imgs/movie2.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+.movie3 {
+	background: url(../assets//imgs/movie3.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+.movie4 {
+	background: url(../assets//imgs/movie4.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+.movie5 {
+	background: url(../assets//imgs/movie5.png) no-repeat;
+	background-origin: border-box;
+	background-size: cover;
+}
+
+@import url('scrollArea.css');
+@import url("./loader.css");
+
+
+/* .scrollbar-w-2::-webkit-scrollbar {
+	width: 0.25rem;
+	height: 0.25rem;
+  }
+  
+  .scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+	--bg-opacity: 1;
+	background-color: #f7fafc;
+	background-color: rgba(247, 250, 252, var(--bg-opacity));
+  }
+  
+  .scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+	--bg-opacity: 1;
+	background-color: #edf2f7;
+	background-color: rgba(237, 242, 247, var(--bg-opacity));
+  }
+  
+  .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+	border-radius: 0.25rem;
+  } */
+
+  .myCustomFlagsSelect {
+	border: none;
+	width: 100%;
+  }
